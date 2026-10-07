@@ -114,7 +114,7 @@ RUN chmod +x /app/api/docker-entrypoint.sh /app/start.sh
 # from writing .pyc files back into it. It also keeps __pycache__ out of the
 # enterprise tree, where stale bytecode could otherwise shadow a source file
 # that verifies clean against the signed manifest.
-ENV PORT=8000 LEARNHOUSE_PORT=9000 COLLAB_PORT=4000 HOSTNAME=0.0.0.0 LEARNHOUSE_OSS=true NEXT_PUBLIC_LEARNHOUSE_OSS=true PYTHONDONTWRITEBYTECODE=1
+ENV PORT=8000 LEARNHOUSE_PORT=9000 COLLAB_PORT=4000 HOSTNAME=0.0.0.0 PYTHONDONTWRITEBYTECODE=1
 
 EXPOSE 80 9000 4000
 

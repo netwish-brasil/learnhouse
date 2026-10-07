@@ -60,7 +60,7 @@ PLAN_FEATURE_CONFIGS: dict[str, dict] = {
             "courses": {"enabled": True, "limit": 1},
 
             "members": {"admin_limit": 1, "enabled": True, "limit": 10},
-            "payments": {"enabled": False},
+            "payments": {"enabled": True},
 
             "usergroups": {"enabled": False, "limit": 0},
             "podcasts": {"enabled": False, "limit": 0},
